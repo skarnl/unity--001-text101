@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b50455e39d134341be9901976cb5988, type: 3}
+  m_Name: A1 - het begin
+  m_EditorClassIdentifier: 
+  storyText: 'Er was eens een prachtig kasteel. In dat kasteel woonde een koning met
+    zijn vrouw en hun [zoon/dochter]. Het kasteel zat vol gangen en torens. Op de
+    torens zaten kleine mini torentjes voor de vogeltjes en overal speelde kinderen
+    vrolijk op de pleinen.
+
+
+    Jij bent de [prins/prinses] en woont in het hoogste torentje. Op een morgen word
+    je wakker van het vrolijke gezang van de kok, het komt van beneden in de keuken.
+
+
+    1) In je pyjama loop je je kamer uit, eens kijken wat de kok voor ontbijt heeft
+    gemaakt
+
+
+    2) Je wil je eerst netjes aankleden in je mooiste [pak/jurk]'
+  nextStates:
+  - {fileID: 11400000, guid: 40669224a8fc745ff8bfffa86eb400cc, type: 2}
+  - {fileID: 11400000, guid: 4c57d08c7849f486a80b61525aff340a, type: 2}
+  karelChoice: 0
